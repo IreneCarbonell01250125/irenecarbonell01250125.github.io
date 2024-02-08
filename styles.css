@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFA500; /* Naranja */
+  color: #333;
+}
+
+header {
+  background-color: #FF4500; /* Naranja rojizo */
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#protector-solar-info img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #FF4500; /* Naranja rojizo */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FF6347; /* Naranja rojizo claro */
+}
+
+footer {
+  background-color: #FF4500; 
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  bottom: 0;
+  width: 100%;
+}
